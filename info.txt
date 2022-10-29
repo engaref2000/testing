@@ -1,1 +1,35 @@
-Hello 
+
+main video is : 
+https://www.youtube.com/watch?v=rPL_pKNT-XI
+
+Hello git 
+1- git init . 
+is the first command tell the git I want this folder to be trac 
+2- git add [file name ]
+3- git status 
+to know what the status there 
+4- git log 
+show information about directory 
+
+
+
+
+Generating a new SSH key and adding it to the ssh-agent
+web refrence :
+ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+ -first go to git bash 
+
+1- 
+$ ssh-keygen -t ed25519 -C "engaref2000@gmail.com"
+
+2-
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+
+$ ssh-add ~/.ssh/id_ed25519
+
+
+floww this web sit to gpg 
+https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
