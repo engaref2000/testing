@@ -79,7 +79,7 @@ https://docs.github.com/en/authentication/managing-commit-signature-verification
 ---
 
 create new repository on gitHub git the name of the repository from ssh
-user this command
+use this command to tell git i want connect to this repository
 git remote add <name> <url>
 exp:
 git remote add origin git@github.com:engaref2000/testing.git
@@ -87,3 +87,5 @@ git remote add origin git@github.com:engaref2000/testing.git
 to push your code you use this command
 
 git push -u origin HEAD
+to force update cloud use this commmand
+git push -u origin HEAD -f
