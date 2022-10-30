@@ -89,3 +89,9 @@ to push your code you use this command
 git push -u origin HEAD
 to force update cloud use this commmand
 git push -u origin HEAD -f
+
+add tagging to Repository
+
+git tag "tag name "
+to push the tag to github
+git push --tags
