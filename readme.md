@@ -3,12 +3,22 @@ Git and GitHub
 main video is :
 https://www.youtube.com/watch?v=rPL_pKNT-XI
 
-setp 1 :
+---
+
+                    setp1
+
+---
+
 install Git
 download for windows is :https://git-scm.com/downloads
 
-step2 :
-Hello git
+---
+
+                    setp2
+
+---
+
+some Command use by github
 1- git init .
 is the first command tell the git I want this folder to be trac
 2- git add [file name ] , or use git add --all
@@ -18,12 +28,19 @@ to know what the status there
 show information about directory
 5- git branch -M master
 to change the branch you work on it
+
 6 - git remote add origin https://gethub.com/[your name ]/[repository name ]
 exp: git remote add origin https://github.com/engaref2000/mir.git
 
 https://github.com/engaref2000/connection-github-with-git.git
 
 git push -u origin main
+
+---
+
+                    setp3
+
+---
 
 Generating a new SSH key and adding it to the ssh-agent
 web refrence :
@@ -44,5 +61,29 @@ $ eval "$(ssh-agent -s)"
 
 $ ssh-add ~/.ssh/id_ed25519
 
+---
+
+                    setp4
+
+---
+
+gpg GNU Privacy Guard
+
 floww this web sit to gpg
 https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
+
+---
+
+                    setp5
+
+---
+
+create new repository on gitHub git the name of the repository from ssh
+user this command
+git remote add <name> <url>
+exp:
+git remote add origin git@github.com:engaref2000/testing.git
+
+to push your code you use this command
+
+git push -u origin HEAD
